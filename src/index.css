@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Varela+Round&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'AltarGothicDemo';
+  src: url('/fonts/AltarGothicDemo-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anurati';
+  src: url('/fonts/Anurati-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Berosong';
+  src: url('/fonts/Berosong-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Dracutaz';
+  src: url('/fonts/Dracutaz.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Elianto';
+  src: url('/fonts/Elianto-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Elixia1j6LB';
+  src: url('/fonts/Elixia-1j6LB.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ELIXIA';
+  src: url('/fonts/ELIXIA.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Elixir';
+  src: url('/fonts/Elixir.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JavierSkull';
+  src: url('/fonts/Javier Skull.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mareno';
+  src: url('/fonts/Mareno-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RustyAttack';
+  src: url('/fonts/RUSTY ATTACK DEMO Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SadRock';
+  src: url('/fonts/SadRock-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sheword';
+  src: url('/fonts/Sheword-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ShlopRG';
+  src: url('/fonts/shlop rg.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TopsAgain';
+  src: url('/fonts/TopsAgain-9M5o0.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WildwestHunt';
+  src: url('/fonts/WildwestHunt-Jpdan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WorldSeries';
+  src: url('/fonts/WorldSeriesPersonalUseOnlyPersonalUseOnly-GOnXm.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Synchro';
+  src: url('/fonts/Synchro.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PrivusMedium';
+  src: url('/fonts/privus-medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LosttimohOTF';
+  src: url('/fonts/Losttimoh.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LosttimohTTF';
+  src: url('/fonts/Losttimoh.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
