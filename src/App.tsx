@@ -9,6 +9,8 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import { ThemeProvider } from './components/ThemeProvider';
 
+import LandingPage from './pages/LandingPage';
+
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
@@ -16,8 +18,8 @@ function App() {
     <ThemeProvider>
       <ErrorBoundary>
         <Router>
-          <Navbar />
-          <Routes>
+          {/* <Navbar /> */}
+          {/* <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login onLogin={() => setIsAuthenticated(true)} />} />
             <Route
@@ -28,8 +30,9 @@ function App() {
                 </ProtectedRoute>
               }
             />
-          </Routes>
-          <ThemeDebug />
+          </Routes> */}
+          <LandingPage/>
+          {/* <ThemeDebug /> */}
         </Router>
       </ErrorBoundary>
     </ThemeProvider>

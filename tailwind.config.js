@@ -4,9 +4,27 @@ module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}", // This scans all your component files
+    "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '480px',   // Added extra small breakpoint
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+        '3xl': '1920px'  // For 4K screens
+      },
+      container: {
+        padding: {
+          DEFAULT: '1rem',  // Mobile padding
+          sm: '1.5rem',
+          lg: '2rem',
+          xl: '3rem'
+        },
+      },
       colors:{
         // black
         dark900 :'#0a0a0a',
@@ -44,7 +62,7 @@ module.exports = {
 
         // purple
 
-        neon_purple :'#8A00C4',
+        neon_purple :'#8105b6',
 
         // green
         lime_green :'#66FE08',
@@ -95,6 +113,7 @@ module.exports = {
         autumnal : '#F15822'
       },
       fontFamily: {
+        'boldonse': ['Boldonse', 'sans-serif'],
         // Coding
         'fira-code': ['"Fira Code"', 'monospace'], // For code snippets
         'plex-sans': ['"IBM Plex Sans"', 'sans-serif'], // UI text
@@ -126,7 +145,12 @@ module.exports = {
         'losttimoh-otf': ['LosttimohOTF', 'sans-serif'],
         'losttimoh-ttf': ['LosttimohTTF', 'sans-serif'],
       },
+      backgroundImage:{
+        'gradient-overlay': 'linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8))'
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
