@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useTheme } from './ThemeProvider';
+import { useTheme } from './ThemeProvider'; // Adjust the import path as necessary
 
 const ThemeDebug: React.FC = () => {
   const { theme } = useTheme();

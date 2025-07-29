@@ -1,0 +1,34 @@
+.cta-btn{
+    position: relative;
+    overflow: hidden;
+    z-index: 20;
+}
+.cta-btn::before{
+  position:absolute;
+  content:'';
+  width: calc(100% + 50px);
+  height: calc(100% + 50px);
+  background-color: #1586f5;
+  left:-145%;
+  top: -20px;
+  z-index: -1;
+  border-radius: 50px;
+}
+.cta-btn:hover::before{
+  animation-name: slide;
+  animation-duration:1s;
+  animation-delay: 0;
+  animation-fill-mode: both;
+  animation-direction: normal;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count: 1;
+}
+@keyframes slide {
+    to{
+        left:-20px;
+    }
+}
+
+.hero-section{
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(0, 0, 0),rgb(6, 2, 29),rgb(1, 1, 13));
+}

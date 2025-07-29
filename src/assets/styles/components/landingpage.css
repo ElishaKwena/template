@@ -1,0 +1,17 @@
+.post-sample{
+    position: relative;
+    z-index: 10;
+}
+.post-sample::before{
+    position: absolute;
+    width: calc(100% + 0.25rem);
+    height: calc(100% + 0.25rem);
+    content: '';
+    background-color: red;
+    background-image:linear-gradient(to top right,cyan,cyan,purple,rgb(247, 0, 168));
+    top: -0.15rem;
+    box-shadow: 0 0 15px cyan;
+    left: -0.15rem;
+    border-radius: 10px;
+    z-index: -1;
+}
