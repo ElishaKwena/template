@@ -18,6 +18,17 @@ module.exports = {
         '2xl': '1536px',
         '3xl': '1920px'  // For 4K screens
       },
+<<<<<<< HEAD
+=======
+      container: {
+        padding: {
+          DEFAULT: '1rem',  // Mobile padding
+          sm: '1.5rem',
+          lg: '2rem',
+          xl: '3rem'
+        },
+      },
+>>>>>>> 8d46ff6be87c6b3d2c31bee871a286a7217bf168
       colors:{
         // black
         dark900 :'#0a0a0a',
@@ -55,7 +66,7 @@ module.exports = {
 
         // purple
 
-        neon_purple :'#8A00C4',
+        neon_purple :'#8105b6',
 
         // green
         lime_green :'#66FE08',
@@ -106,6 +117,7 @@ module.exports = {
         autumnal : '#F15822'
       },
       fontFamily: {
+        'boldonse': ['Boldonse', 'sans-serif'],
         // Coding
         'fira-code': ['"Fira Code"', 'monospace'], // For code snippets
         'plex-sans': ['"IBM Plex Sans"', 'sans-serif'], // UI text
@@ -137,6 +149,9 @@ module.exports = {
         'losttimoh-otf': ['LosttimohOTF', 'sans-serif'],
         'losttimoh-ttf': ['LosttimohTTF', 'sans-serif'],
       },
+      backgroundImage:{
+        'gradient-overlay': 'linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8))'
+      }
     },
   },
   plugins: [

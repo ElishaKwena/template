@@ -31,6 +31,8 @@ const AppLayout = () => {
   );
 };
 
+import LandingPage from './pages/LandingPage';
+
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -44,11 +46,31 @@ function App() {
   return (
     <ThemeProvider>
       <ErrorBoundary>
+<<<<<<< HEAD
         <AuthProvider>
           <Router>
             <AppLayout />
           </Router>
         </AuthProvider>
+=======
+        <Router>
+          {/* <Navbar /> */}
+          {/* <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login onLogin={() => setIsAuthenticated(true)} />} />
+            <Route
+              path="/dashboard"
+              element={
+                <ProtectedRoute isAuthenticated={isAuthenticated}>
+                  <Dashboard />
+                </ProtectedRoute>
+              }
+            />
+          </Routes> */}
+          <LandingPage/>
+          {/* <ThemeDebug /> */}
+        </Router>
+>>>>>>> 8d46ff6be87c6b3d2c31bee871a286a7217bf168
       </ErrorBoundary>
     </ThemeProvider>
   );

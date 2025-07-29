@@ -17,6 +17,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+<<<<<<< HEAD
     "@mui/icons-material": "^7.2.0",
     "@mui/material": "^7.2.0",
     "aos": "^2.3.4",
@@ -25,6 +26,14 @@
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.7.1"
+=======
+    "flowbite": "^1.6.5",
+    "flowbite-react": "^0.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.6.3",
+    "swiper": "^11.2.10"
+>>>>>>> 8d46ff6be87c6b3d2c31bee871a286a7217bf168
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
@@ -34,13 +43,13 @@
     "@types/react-dom": "^19.1.6",
     "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^4.5.2",
-    "autoprefixer": "^10.4.16",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9.29.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.2.0",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.34.1",
     "vite": "^7.0.0"
